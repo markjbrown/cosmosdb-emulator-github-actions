@@ -10,7 +10,7 @@ Go to your GitHub account, open the repository and make sure to enable workflows
 
 ![](images/enable-workflows.png)
 
-Add the connection string as [secret](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-a-repository) to the repository:
+Add the Cosmos DB emulator connection string as [secret](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-a-repository) to the repository. Use the following value: `AccountEndpoint=http://localhost:8081/;AccountKey=C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw==`
 
 ![](images/secret-and-vars1.png)
 
