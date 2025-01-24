@@ -85,5 +85,3 @@ func TestReadItem(t *testing.T) {
     require.NoError(t, err)
 	require.Equal(t, userID, userItem.ID)
 }
-
-
